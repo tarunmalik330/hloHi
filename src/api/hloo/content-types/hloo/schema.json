@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hloos",
+  "info": {
+    "singularName": "hloo",
+    "pluralName": "hloos",
+    "displayName": "hloo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Number": {
+      "type": "integer"
+    },
+    "Password": {
+      "type": "password"
+    }
+  }
+}
